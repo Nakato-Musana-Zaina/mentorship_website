@@ -3,7 +3,7 @@
     display: flex;
     gap: 5%;
     background-color: gray;
-    width: 100%;
+    width: 120%;
     padding: 24px;
     color: white;
     text-decoration: none;
@@ -41,13 +41,13 @@
     background-color: pink;
     padding: 24px;
     width: 20%;
-    margin-top: 3%;
-   text-align: center;
+    margin-top: 1%;
+   margin-left: 50%;
 }
 .footer{
     display: flex;
     gap: 28%;
-    width: 100%;
+    width: 120%;
     padding: 34px;
     text-align: center;
     background-color: gray;

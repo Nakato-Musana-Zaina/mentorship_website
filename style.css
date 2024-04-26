@@ -1,6 +1,6 @@
 .body{
     width: 80%;
-    padding: 0px 20%;
+    padding: 0px;
     border-color: black;
     
 
@@ -11,7 +11,7 @@ ul{
     gap: 8%;
 }
 
-.logo_image{
+.logos{
     width: 20%;
     margin-left: 30%;
 
@@ -21,7 +21,7 @@ ul{
     gap: 4%;
 }
 .undraw{
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 
@@ -30,16 +30,15 @@ ul{
     display: flex;
     gap:4%;
     font-size:large;
-    padding: 17px;
-    /* margin-bottom: 4%; */
-    width: 68%;
-    margin-bottom: 4%;
+    width: 120%;
+    margin-bottom: 2%;
+    margin-right: 50%;
 }
 .navbar a{
     color: white;
     text-decoration: none;
     font-size: x-large;
-    text-align: center;
+    
 }
 .welcome_text{
     font-size: 400%;
@@ -50,7 +49,7 @@ ul{
 .landing_page{
     display: flex;
     gap: 25%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     padding: 12px;
     margin-left: 17%;
 }
@@ -70,14 +69,14 @@ ul{
     background-color: gray;
     font-size: larger;
     color: aliceblue;
-    width: 55%;
-    margin-left: 18%;
+    width: 90%;
+    margin-left: 1%;
     
 }
 .signup_button{
     background-color: pink;
     padding: 24px;
-    width: 40%;
+    width: 30%;
     margin-top: 5%;
 }
 @media screen and (min-width:200px) and (max-width:400px){
