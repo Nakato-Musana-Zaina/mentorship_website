@@ -5,12 +5,11 @@
  .navbar ul{
     display: flex;
     background-color: gray;
-    width: 80%;
+    width: 90%;
     gap: 10%;
     padding: 24px;
     color: white;
-    margin-left: 10%;
-    margin-bottom: 7%;
+    margin-bottom: 4%;
     
 } 
 .navbar ul li a{
@@ -22,9 +21,7 @@
 
 }
 .mentors_page{
-    /* border: solid 2px black; */
     padding: 12px;
-    width: 70%;
     margin-left: 10%;
     font-size: x-large;
 }
@@ -48,18 +45,18 @@
     width: 20%;
     margin-top: 5%;
     margin-left: 40%;
-    margin-bottom: 7%;
+    margin-bottom: 4%;
 }
 .footer{
         display: flex;
         gap: 28%;
-        padding: 34px;
+        padding: 34px; 
         text-align: center;
         background-color: gray;
         font-size: larger;
         color: aliceblue;
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        /* margin-left: 10%; */
 }
 .mentorimage{
     width: 130%;

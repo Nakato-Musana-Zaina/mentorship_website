@@ -1,5 +1,4 @@
-.maincontainer{
-    border: solid, 3px, black;
+#maincontainer{
     border-radius: 8%; 
     background-color: rgb(246, 243, 239);
     font-size: larger;
@@ -7,18 +6,14 @@
 
 }
 .body{
-    
-     width: 50%; 
+    width: 50%; 
     border-radius: 8%;
     font-size: large;
     margin-left: 30%;
 
 }
 .form{
-    /* padding: 20px; */
-    /* padding: 5%; */
     width: 90%;
-     text-align: center; 
     border: 4px black 3px solid;
 }
 .body img{
@@ -40,7 +35,7 @@
     padding: 24px;
     
 }
-.maincontainer input{
+.form input{
     border: solid, 1px, black;
     background: transparent;
     border-radius: 10%;
@@ -52,15 +47,11 @@
     
 }
 .signupButton{
-    width: 90%;
-    height: 17%; 
     background-color: gray;
-    padding: 10px;
-}
-.signupButton a{
+    padding: 20px;
+    width: 80%;
     color: white;
     font-size: large;
-    text-decoration: none;
 }
 
 
