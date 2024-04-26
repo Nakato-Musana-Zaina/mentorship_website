@@ -1,26 +1,39 @@
-.page_body{
-    border: solid, 2px, black;
+.body{
+    width: 80%;
+    padding: 0px 20%;
+    border-color: black;
+    
 
 }
-.body img{
-    width: 25%;
+ul{
+    display: flex;
+    width: 100%;
+    gap: 8%;
+}
+
+.logo_image{
+    width: 20%;
+    margin-left: 30%;
+
 }
 .logo_navbar{
     display: flex;
     gap: 4%;
 }
-.logo_image{
-    width: 20%;
+.undraw{
+    width: 50%;
+    height: 100%;
 }
+
 .navbar{
     background-color: gray;
     display: flex;
     gap:4%;
     font-size:large;
-    padding: 24px;
+    padding: 17px;
     /* margin-bottom: 4%; */
-    width: 70%;
-    margin-bottom: 6%;
+    width: 68%;
+    margin-bottom: 4%;
 }
 .navbar a{
     color: white;
@@ -29,15 +42,15 @@
     text-align: center;
 }
 .welcome_text{
-    font-size: 450%;
+    font-size: 400%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
     text-align: center;
 }
 .landing_page{
     display: flex;
     gap: 25%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
     padding: 12px;
     margin-left: 17%;
 }
@@ -57,13 +70,275 @@
     background-color: gray;
     font-size: larger;
     color: aliceblue;
+    width: 55%;
+    margin-left: 18%;
     
 }
 .signup_button{
     background-color: pink;
     padding: 24px;
-    width: 180%;
+    width: 40%;
     margin-top: 5%;
+}
+@media screen and (min-width:200px) and (max-width:400px){
+    .body{
+        width: 70%;
+        padding: 0px 0%;
+        border-color: black;
+        
+    
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10%;
+    }
+    
+    .logo_image{
+        width: 30%;
+        margin-left: 30%;
+    
+    }
+    .logo_navbar{
+        display: flex;
+        gap: 4%;
+    }
+    .undraw{
+        width: 40%;
+        height: 80%;
+    }
+    
+    .navbar{
+        background-color: gray;
+        display: flex;
+        gap:4%;
+        font-size:large;
+        padding: 17px;
+        /* margin-bottom: 4%; */
+        width: 60%;
+        margin-bottom: 4%;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        text-align: center;
+    }
+    .welcome_text{
+        font-size: 250%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .landing_page{
+        display: block;
+        gap: 25%;
+        margin-bottom: 5%;
+        padding: 12px;
+        margin-left: 17%;
+    }
+    .landing_page_text{
+        font-size: 150%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 2%;
+    }
+    .mission{
+        font-size: large;
+    }
+    .footer{
+        display: block;
+        gap: 28%;
+        padding: 34px;
+        text-align: center;
+        background-color: gray;
+        font-size: larger;
+        color: aliceblue;
+        width: 45%;
+        margin-left: 18%;
+        
+    }
+    .signup_button{
+        background-color: pink;
+        padding: 24px;
+        width: 38%;
+        margin-top: 5%;
+        margin-bottom: 6%;
+    }
+    
+}
+@media screen and (min-width:401px) and (max-width:700px){
+    .body{
+        width: 80%;
+        padding: 0px 0%;
+        border-color: black;
+        
+    
+    }
+    ul{
+        display: block;
+        width: 100%;
+        gap: 8%;
+        list-style-type: none;
+    }
+    
+    .logo_image{
+        width: 20%;
+        margin-left: 15%;
+        margin-bottom: 4%;
+    
+    }
+    .logo_navbar{
+        display: block;
+        gap: 4%;
+    }
+    .undraw{
+        width: 50%;
+        height: 100%;
+    }
+    
+    .navbar{
+        background-color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        gap:4%;
+        font-size:large;
+        padding: 17px;
+        /* margin-bottom: 4%; */
+        width: 68%;
+        margin-bottom: 4%;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        text-align: center;
+    }
+    .welcome_text{
+        font-size: 250%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .landing_page{
+        display: block;
+        gap: 25%;
+        margin-bottom: 5%;
+        padding: 12px;
+        margin-left: 17%;
+    }
+    .landing_page_text{
+        font-size: 150%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 2%;
+    }
+    .mission{
+        font-size: x-large;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28%;
+        padding: 34px;
+        text-align: center;
+        background-color: gray;
+        font-size: larger;
+        color: aliceblue;
+        width: 55%;
+        margin-left: 18%;
+        
+    }
+    .signup_button{
+        background-color: pink;
+        padding: 24px;
+        width: 40%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+}
+@media screen and (min-width:701px) and (max-width:990px){
+    .body{
+        width: 80%;
+        padding: 0px 20%;
+        border-color: black;
+        
+    
+    }
+    ul{
+        display: flex;
+        width: 100%;
+        gap: 8%;
+    }
+    
+    .logo_image{
+        width: 20%;
+        margin-left: 30%;
+    
+    }
+    .logo_navbar{
+        display: flex;
+        gap: 4%;
+    }
+    .undraw{
+        width: 50%;
+        height: 100%;
+    }
+    
+    .navbar{
+        background-color: gray;
+        display: flex;
+        gap:4%;
+        font-size:large;
+        padding: 17px;
+        /* margin-bottom: 4%; */
+        width: 68%;
+        margin-bottom: 4%;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        text-align: center;
+    }
+    .welcome_text{
+        font-size: 400%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .landing_page{
+        display: flex;
+        gap: 25%;
+        margin-bottom: 5%;
+        padding: 12px;
+        margin-left: 17%;
+    }
+    .landing_page_text{
+        font-size: 250%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 2%;
+    }
+    .mission{
+        font-size: x-large;
+    }
+    .footer{
+        display: flex;
+        gap: 28%;
+        padding: 34px;
+        text-align: center;
+        background-color: gray;
+        font-size: larger;
+        color: aliceblue;
+        width: 55%;
+        margin-left: 18%;
+        
+    }
+    .signup_button{
+        background-color: pink;
+        padding: 24px;
+        width: 40%;
+        margin-top: 5%;
+    }
 }
 
 

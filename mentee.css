@@ -1,0 +1,365 @@
+body{
+    font-size: large;
+    width: 65%;
+    margin-left:15%;
+    background-color: white;
+    
+}
+.img{
+    margin-left: 45%;
+}
+
+ body ul li{
+    list-style-type: none;
+    gap: 3%;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    font-size:x-large;
+    display: flex;
+    gap: 5%;
+    background-color: gray;
+    padding: 36px;
+    width: 80%;
+    margin-left: 20%;
+
+}
+.nav{
+    display: flex;
+}
+.detail{
+    margin-left: 20%;
+    font-size: xx-large;
+    margin-bottom: 8%;
+    /* font-size: larger; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.achievements_heading{
+    text-align: center;
+    font-size: 250%;
+    margin-top: 4%;
+    color: gray
+}
+.achievements{
+    display: flex;
+    gap: 6%;
+    margin-left: 20%;
+    margin-bottom: 8%;
+    margin-top: 3%;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.goals_heading{
+    text-align: center;
+    font-size: 250%;
+    color: gray;
+    margin-bottom: 8%;
+}
+.goals{
+    display: flex;
+    gap: 8%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.goals ul{
+    list-style-type: none;
+    gap: 5%; 
+}
+.back_button{
+    background-color: pink;
+    padding: 24px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.footer{
+        display: flex;
+        gap: 28%;
+        padding: 34px;
+        text-align: center;
+        background-color: gray;
+        font-size: larger;
+        color: aliceblue;
+        width: 90%;
+        margin-left: 20%;
+}
+
+@media screen and (min-width:200px) and (max-width:400px) {
+    body{
+        font-size: large;
+        width: 55%;
+        margin-left:15%;
+        background-color: white;
+        
+    }
+    .img{
+        margin-left: 35%;
+    }
+    
+     body ul li{
+        list-style-type: none;
+        gap: 3%;
+    }
+    ul a{
+        color: white;
+        text-decoration: none;
+        font-size:x-large;
+        display: block;
+        gap: 5%;
+        background-color: gray;
+        padding: 36px;
+        width: 60%;
+        margin-left: 20%;
+    
+    }
+    .nav{
+        display: flex;
+    }
+    .detail{
+        margin-left: 20%;
+        font-size: xx-large;
+        margin-bottom: 8%;
+        /* font-size: larger; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .achievements_heading{
+        text-align: center;
+        font-size: 250%;
+        margin-top: 6%;
+    }
+    .achievements{
+        display: flex;
+        gap: 6%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        margin-top: 8%;
+        font-size:xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .goals_heading{
+        text-align: center;
+        font-size: 250%;
+    }
+    .goals{
+        display: flex;
+        gap: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-size: xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .goals ul{
+        list-style-type: none;
+        gap: 5%; 
+    }
+    .back_button{
+        background-color: pink;
+        padding: 24px;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    .footer{
+            display: block;
+            gap: 28%;
+            padding: 30px;
+            text-align: center;
+            background-color: gray;
+            font-size: larger;
+            color: aliceblue;
+            width: 60%;
+    }
+    
+    
+}
+@media screen and (min-width: 401px) and (max-width:700px){
+    body{
+        font-size: large;
+        width: 65%;
+        margin-left:15%;
+        background-color: white;
+        
+    }
+    .img{
+        margin-left: 45%;
+        width: 30%;
+    }
+    
+     body ul li{
+        list-style-type: none;
+        gap: 3%;
+    }
+    ul a{
+        color: white;
+        text-decoration: none;
+        font-size:large;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        background-color: gray;
+        padding: 36px;
+        width: 80%;
+        margin-left: 20%;
+    
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .detail{
+        margin-left: 20%;
+        font-size: large;
+        margin-bottom: 8%;
+        /* font-size: larger; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .achievements_heading{
+        text-align: center;
+        font-size: 150%;
+        margin-top: 6%;
+    }
+    .achievements{
+        display: block;
+        gap: 4%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+        margin-top: 8%;
+        font-size:large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .goals_heading{
+        text-align: center;
+        font-size: 150%;
+    }
+    .goals{
+        display: block;
+        gap: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .goals ul{
+        list-style-type: none;
+        gap: 5%; 
+    }
+    .back_button{
+        background-color: pink;
+        padding: 24px;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+    .footer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28%;
+            padding: 34px;
+            text-align: center;
+            background-color: gray;
+            font-size: larger;
+            color: aliceblue;
+            width: 60%;
+    }
+    
+     
+}
+@media screen and (min-width: 701px) and (max-width:990px){
+    body{
+        font-size: large;
+        width: 65%;
+        margin-left:15%;
+        background-color: white;
+        
+    }
+    .img{
+        margin-left: 45%;
+    }
+    
+     body ul li{
+        list-style-type: none;
+        gap: 3%;
+    }
+    ul a{
+        color: white;
+        text-decoration: none;
+        font-size:x-large;
+        display: flex;
+        gap: 5%;
+        background-color: gray;
+        padding: 36px;
+        width: 80%;
+        margin-left: 20%;
+    
+    }
+    .nav{
+        display: flex;
+    }
+    .detail{
+        margin-left: 20%;
+        font-size: xx-large;
+        margin-bottom: 17%;
+        /* font-size: larger; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .achievements_heading{
+        text-align: center;
+        font-size: 250%;
+        margin-top: 4%;
+        color: gray
+    }
+    .achievements{
+        display: flex;
+        gap: 6%;
+        margin-left: 20%;
+        margin-bottom: 4%;
+        margin-top: 3%;
+        font-size:xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .goals_heading{
+        text-align: center;
+        font-size: 250%;
+        color: gray;
+        margin-bottom: 17%;
+    }
+    .goals{
+        display: flex;
+        gap: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-size: xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .goals ul{
+        list-style-type: none;
+        gap: 5%; 
+    }
+    .back_button{
+        background-color: pink;
+        padding: 24px;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+    .footer{
+            display: flex;
+            gap: 28%;
+            padding: 34px;
+            text-align: center;
+            background-color: gray;
+            font-size: larger;
+            color: aliceblue;
+            width: 90%;
+            margin-left: 20%;
+    }
+      
+}
+
