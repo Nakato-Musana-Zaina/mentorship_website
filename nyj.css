@@ -5,3 +5,18 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+.book_image{
+margin-left: 3%;
+border:  3px solid ; 
+width: 75%;
+margin-bottom: 7%;
+padding: 40px;
+padding-left: 20%;
+object-fit: cover;
+background-color: aquamarine;
+
+
+}
+.book_summary{
+    margin-left: 30%;
+}

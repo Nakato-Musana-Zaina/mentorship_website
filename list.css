@@ -16,6 +16,10 @@
     
 
 }
+#logo{
+    width: 50%;
+    height: 70%;
+}
 
 .navbar li a{
     list-style-type: none;
