@@ -6,8 +6,8 @@
 
 }
 .book_image{
-margin-left: 3%;
-border:  3px solid ; 
+margin-left: 18%;
+/* border:  3px solid ;  */
 width: 25%;
 margin-bottom: 5%;
 padding: 40px;
@@ -20,8 +20,8 @@ object-fit: cover;
 .book_summary{
     margin-left: 30%;
 }
-.image{ 
-    width: 70%;
+#image{ 
+    width: 130%;
 }
 @media screen and (min-width:200px) and (max-width:550px){
     .books{
