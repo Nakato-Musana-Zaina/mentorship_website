@@ -8,17 +8,20 @@
 .book_image{
 margin-left: 3%;
 border:  3px solid ; 
-width: 75%;
+width: 25%;
 margin-bottom: 5%;
 padding: 40px;
 padding-left: 20%;
 object-fit: cover;
-background-color: aquamarine;
+/* background-color: aquamarine; */
 
 
 }
 .book_summary{
     margin-left: 30%;
+}
+.image{ 
+    width: 70%;
 }
 @media screen and (min-width:200px) and (max-width:550px){
     .books{
@@ -31,7 +34,7 @@ background-color: aquamarine;
     .book_image{
     margin-left: 3%;
     border:  3px solid ; 
-    width: 65%;
+    width: 25%;
     margin-bottom: 4%;
     padding: 30px;
     padding-left: 15%;
