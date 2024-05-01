@@ -125,7 +125,7 @@ li a{
     
      .navbar ul li{
         list-style-type: none;
-        gap: 3%;
+        gap: 2%;
         background-color: gray;
     }
     .detail h2{
@@ -156,8 +156,8 @@ li a{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .achievements_heading{
-        margin-left: 8%;
-        font-size: 250%;
+        margin-left: 5%;
+        font-size: 180%;
         margin-top: 4%;
         color: gray
     }
@@ -176,7 +176,7 @@ li a{
     }
     .goals_heading{
         margin-left: 1%;
-        font-size: 250%;
+        font-size: 180%;
         color: gray;
         margin-bottom: 4%;
     }

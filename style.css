@@ -91,13 +91,14 @@ ul{
         width: 70%;
         padding: 0px 0%;
         border-color: black;
+        display: block;
         
     
     }
     ul{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
         gap: 10%;
     }
     #log{
@@ -123,7 +124,7 @@ ul{
         display: flex;
         gap:4%;
         font-size:large;
-        padding: 17px;
+        padding: 10px;
         /* margin-bottom: 4%; */
         width: 60%;
         margin-bottom: 4%;
@@ -180,13 +181,15 @@ ul{
     .body{
         width: 80%;
         padding: 0px 0%;
+        gap: 18%;
         border-color: black;
+        /* display: block; */
         
     
     }
     #log{
-        width: 50%;
-        height: 70%;
+        width: 80%;
+        height: 30%;
     }
     ul{
         display: block;
@@ -216,9 +219,9 @@ ul{
         flex-wrap: wrap;
         gap:4%;
         font-size:large;
-        padding: 17px;
+        padding: 10px;
         /* margin-bottom: 4%; */
-        width: 68%;
+        width: 48%;
         margin-bottom: 4%;
     }
     .navbar a{
@@ -263,8 +266,8 @@ ul{
     }
     .signup_button{
         background-color: pink;
-        padding: 24px;
-        width: 40%;
+        padding: 20px;
+        width: 50%;
         margin-top: 5%;
         margin-bottom: 3%;
     }

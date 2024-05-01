@@ -71,7 +71,7 @@
      .navbar ul{
         display: block;
         background-color: gray;
-        width: 100%;
+        width: 60%;
         gap: 3%;
         padding: 20px;
         color: white;
@@ -91,7 +91,7 @@
     }
     .mentors_page{
         padding: 12px;
-        font-size: x-large;
+        font-size: large;
     }
     .heading{
         text-align: center;

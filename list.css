@@ -77,14 +77,14 @@
     .navbar{
         display: block;
         background-color: gray;
-        width: 90%;
+        width: 65%;
         padding: 28px;
         color: white;
         text-decoration: none;
         
     }
     .body{
-        font-size: x-large;
+        font-size: large;
         width: 70%;
         margin-left: 0%;
         
@@ -106,12 +106,12 @@
       
     }
     .heading{
-        margin-left: 30%;
+        margin-left: 20%;
         font-size: xx-large;
         
     }
     .list_text{
-        margin-left: 10%;
+        margin-left: 6%;
     }
     
     .logo{
@@ -138,7 +138,7 @@
         color: aliceblue;
     }
     .list_text button{
-        width: 70%;
+        width: 90%;
         padding: 10px;
         border-radius: 18%;
     }

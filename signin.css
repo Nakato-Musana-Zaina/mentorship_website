@@ -64,26 +64,25 @@
 @media screen and (min-width: 200px)and (max-width: 500px){
     .form{
         padding: 20px;
-        width: 70%;
-        text-align: center;
+        width: 100%;
         border: 4px black 3px solid;
     }
     .body{
-        width: 80%;
+        width: 100%;
         border-radius: 8%;
-        font-size: x-large;
+        font-size: large;
     
     }
     
     .bodyheading{
-        margin-left: 10%;
+        margin-left: 0%;
         text-align: center;
         margin-bottom: 2%;
         font-size: x-large;
     }
     
     #maincontainer{
-        margin-left: 30%;
+        margin-left: 0%;
         
     }
     #maincontainer input{
@@ -94,7 +93,7 @@
         height: 30%;
         padding: 18px;
         margin-bottom: 3%;
-        margin-left: 2%;
+        margin-left: 1%;
         
     }
     .logo_image{
